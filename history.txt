@@ -1,0 +1,154 @@
+    1  ls
+    2  cd /Outer
+    3  cd Ubuntu
+    4  ls
+    5  cd /Outer/inner
+    6  ls
+    7  cd Outer
+    8  ls
+    9  cd ..
+   10  cd ../..
+   11  cd ../../outer
+   12  cd /kopano/Ubuntu/Outer
+   13  ls
+   14  cd /
+   15  cd Users
+   16  ls
+   17  ls
+   18  ls
+   19  user
+   20  cd usr
+   21  man
+   22  man cd
+   23  git config --list --show-origin
+   24  git config --global user.name "Kopano Mosai"
+   25  git config --global user.email kopano.mosai@gmail.com
+   26  git config --list
+   27  git add -h
+   28  cd C:/Users/kopano/Ubuntu
+   29  git init
+   30  git add *.c
+   31  git add LICENSE
+   32  git status
+   33  ls
+   34  ls
+   35  cat .gitignore
+   36  cd home
+   37  cd /
+   38  ls
+   39  git config
+   40  cd C:/Users
+   41  cd Ubuntu
+   42  cd Users/kopano/Ubuntu
+   43  ls
+   44  cd kopano
+   45  ls
+   46  cd Ubuntu
+   47  cd ../..
+   48  cd ../../Ubuntu
+   49  cd ../Ubuntu
+   50  git config --global color.ui auto
+   51  cd ubuntu
+   52  cd Ubuntu
+   53  cd /Ubuntu
+   54  ls
+   55  cd kopano/Ubuntu
+   56  git add *.c
+   57  git status
+   58  echo 'My project' > README
+   59  git status
+   60  git add README
+   61  git status
+   62  git status -s
+   63  cat .gitignore
+   64  git commit
+   65  ls
+   66  cd /
+   67  ls
+   68  cd c:/Users/kopano/Ubuntu
+   69  git status
+   70  git commit -m "fixing bemchmarks for speed"
+   71  git status
+   72  cd git-basic-exercises
+   73  ls -a
+   74  git init
+   75  ls -a
+   76  git status
+   77  touch README.md
+   78  ls -a
+   79  git status
+   80  git log
+   81  git add README
+   82  git add README.md
+   83  git status
+   84  git rm --cached README.md
+   85  git status
+   86  git add README.md
+   87  git commit -m "initial commit"
+   88  git log
+   89  q
+   90  :wq
+   91  wq
+   92  :q
+   93  man q
+   94  man cd
+   95  quit
+   96  :q
+   97  q
+   98  wq
+   99  :wq
+  100  cd c:/Users/kopano/git-basic-exercises
+  101  cd C:/Users
+  102  cd Users/kopano/git-basic-exercises
+  103  cd ../git-basic-exercises
+  104  cd kopano
+  105  ls
+  106  ls -a
+  107  cd C:/Users
+  108  cd Users/kopano
+  109  cd /Users/kopano
+  110  ls -a
+  111  cd kopano/git-basic-exercises
+  112  cd kopano
+  113  ls -a
+  114  nano READ.md
+  115  cat README.md
+  116  git status
+  117  u
+  118  rm READ.md
+  119  ls -a
+  120  nano README.md
+  121  cat README.md
+  122  git status
+  123  git add README.md
+  124  git commit -m "second commit"
+  125  nano README.md
+  126  git status
+  127  git commit -m "third commit"
+  128  git status
+  129  git commit -a -m "third commit"
+  130  git status
+  131  git log
+  132  git checkout 9f66d12fc173dd95e844da04e1d21bd0f9df16ad
+  133  cat README.md
+  134  git checkout main
+  135  git checkout master
+  136  cat README.md
+  137  git branch
+  138  git branch milkshake-flavours
+  139  git branch
+  140  git checkout milkshake-flavours
+  141  git branch
+  142  nano milkshakes.md
+  143  git status
+  144  git commit -a -m "added initial milkshakes"
+  145  git status
+  146  git add milkshakes.md
+  147  git commit -m "added initial flavour"
+  148  git log
+  149  git checkout master
+  150  git branch history
+  151  git checkout history
+  152  git log
+  153  git branch
+  154  history > history.txt
